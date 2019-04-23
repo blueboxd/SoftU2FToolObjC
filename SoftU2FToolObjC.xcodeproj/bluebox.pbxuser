@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	256AC3D80F4B6AC300CF3369 /* SoftU2FToolObjCAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {975, 564}}";
+			sepNavSelRange = "{340, 25}";
+			sepNavVisRange = "{0, 878}";
+			sepNavWindowFrame = "{{143, 20}, {993, 1171}}";
+		};
+	};
+	256AC3D90F4B6AC300CF3369 /* SoftU2FToolObjCAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            l = \"uint8_t *out_key\";\n            r = \"{16949, 20}\";\n            s = 1;\n        },\n                {\n            l = \"size_t out_len\";\n            r = \"{16971, 18}\";\n            s = 1;\n        },\n                {\n            l = \"const struct env_md_st *digest\";\n            r = \"{16991, 34}\";\n            s = 1;\n        },\n                {\n            l = \"const uint8_t *secret\";\n            r = \"{17027, 25}\";\n            s = 1;\n        },\n                {\n            l = \"size_t secret_len\";\n            r = \"{17054, 21}\";\n            s = 1;\n        },\n                {\n            l = \"const uint8_t *salt\";\n            r = \"{17077, 23}\";\n            s = 1;\n        },\n                {\n            l = \"size_t salt_len\";\n            r = \"{17102, 19}\";\n            s = 1;\n        },\n                {\n            l = \"const uint8_t *info\";\n            r = \"{17123, 23}\";\n            s = 1;\n        },\n                {\n            l = \"size_t info_len\";\n            r = \"{17148, 19}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 22370}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {952, 7956}}";
+			sepNavSelRange = "{2515, 0}";
+			sepNavVisRange = "{1253, 2494}";
+			sepNavWindowFrame = "{{38, 5}, {1011, 977}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = FBBB4AB6218516DC00BFD260 /* SoftU2FToolObjC */;
+		activeTarget = 8D1107260486CEB800E47090 /* SoftU2FToolObjC */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* SoftU2FToolObjC */,
+		);
+		breakpoints = (
+			FBBB4C1E2185373400BFD260 /* u2f_hid.h:32 */,
+			FBBB4FA42185BA2B00BFD260 /* malloc_error_break */,
+			FBBB51B621860D7A00BFD260 /* *0x000000010006e230 */,
+			FBBB51C121860DB900BFD260 /* digest.c:128 */,
+			FB0A7F5E2187E1C000A9C112 /* HMAC */,
+			FB0A7F5F2187E1C000A9C112 /* HMAC */,
+			FB0A7F602187E1C000A9C112 /* HMAC */,
+			FBC8FDEB2250353800E8D537 /* SoftU2FToolObjCAppDelegate.m:541 */,
+			FBC8FE9F2251EC3200E8D537 /* SoftU2FToolObjCAppDelegate.m:34 */,
+		);
+		codeSenseManager = FBBB4ABE218516FB00BFD260 /* Code sense */;
+		executables = (
+			FBBB4AB6218516DC00BFD260 /* SoftU2FToolObjC */,
+		);
+		perUserDictionary = {
+			PBXPerProjectTemplateStateSaveDate = 575953556;
+			PBXWorkspaceStateSaveDate = 575953556;
+		};
+		perUserProjectItems = {
+			FBC800212255D35700E8D537 /* PBXBookmark */ = FBC800212255D35700E8D537 /* PBXBookmark */;
+			FBC800222255D35700E8D537 /* PBXTextBookmark */ = FBC800222255D35700E8D537 /* PBXTextBookmark */;
+		};
+		sourceControlManager = FBBB4ABD218516FB00BFD260 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1261, 806}}";
+			sepNavSelRange = "{196, 0}";
+			sepNavVisRange = "{0, 257}";
+		};
+	};
+	8D1107260486CEB800E47090 /* SoftU2FToolObjC */ = {
+		activeExec = 0;
+		executables = (
+			FBBB4AB6218516DC00BFD260 /* SoftU2FToolObjC */,
+		);
+	};
+	8D1107310486CEB800E47090 /* SoftU2FToolObjC-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{809, 18}, {1090, 1062}}";
+		};
+	};
+	FB0A7F5E2187E1C000A9C112 /* HMAC */ = {
+		isa = PBXSymbolicBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 1;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		hitCount = 0;
+		ignoreCount = 0;
+		location = libcrypto.0.9.8.dylib;
+		modificationTime = 575794268.1726179;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+		symbolName = HMAC;
+	};
+	FB0A7F5F2187E1C000A9C112 /* HMAC */ = {
+		isa = PBXSymbolicBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 1;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		hitCount = 0;
+		ignoreCount = 0;
+		location = SelfSignedCertificate;
+		modificationTime = 575794268.172724;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+		symbolName = HMAC;
+	};
+	FB0A7F602187E1C000A9C112 /* HMAC */ = {
+		isa = PBXSymbolicBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 1;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		hitCount = 0;
+		ignoreCount = 0;
+		location = libcrypto.44.dylib;
+		modificationTime = 575794268.17283;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+		symbolName = HMAC;
+	};
+	FBBB4AB6218516DC00BFD260 /* SoftU2FToolObjC */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = SoftU2FToolObjC;
+		savedGlobals = {
+		};
+		showTypeColumn = 1;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+			$cs = 1;
+			$ds = 1;
+			$eflags = 1;
+			$es = 1;
+			$fs = 1;
+			$gs = 1;
+			$r10 = 1;
+			$r11 = 1;
+			$r12 = 1;
+			$r13 = 1;
+			$r14 = 1;
+			$r15 = 1;
+			$r8 = 1;
+			$r9 = 1;
+			$rax = 1;
+			$rbp = 1;
+			$rbx = 1;
+			$rcx = 1;
+			$rdi = 1;
+			$rip = 1;
+			$rsi = 1;
+			$rsp = 1;
+			$ss = 1;
+			"*d-long unsigned int-+[SoftU2FToolObjCAppDelegate signData:]" = 1;
+			"*d-long unsigned int-generateKeyPair" = 1;
+			"buf-CFDataRef-handleRegisterRequest" = 1;
+			"challenge-char [0]-handleRegisterRequest" = 1;
+			"digestLen-size_t-generateKeyPair" = 1;
+			"digestLen-unsigned int-generateKeyPair" = 1;
+			"keyHandleDigestLen-size_t-generateKeyPair" = 1;
+			"pubLeyLen-size_t-recoverFromKeyHandle" = 1;
+		};
+	};
+	FBBB4ABD218516FB00BFD260 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	FBBB4ABE218516FB00BFD260 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	FBBB4AD2218517B800BFD260 /* softu2f.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {934, 781}}";
+			sepNavSelRange = "{465, 0}";
+			sepNavVisRange = "{0, 1543}";
+			sepNavWindowFrame = "{{231, 25}, {993, 853}}";
+		};
+	};
+	FBBB4B0C21851CDA00BFD260 /* u2f_hid.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {934, 1596}}";
+			sepNavSelRange = "{3130, 0}";
+			sepNavVisRange = "{2229, 2879}";
+			sepNavWindowFrame = "{{347, 74}, {993, 853}}";
+		};
+	};
+	FBBB4C1E2185373400BFD260 /* u2f_hid.h:32 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = FBBB4B0C21851CDA00BFD260 /* u2f_hid.h */;
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 32;
+		modificationTime = 575794307.467499;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	FBBB4E872185A45E00BFD260 /* SelfSignedCertificate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1031, 1067}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 398}";
+			sepNavWindowFrame = "{{234, -58}, {1090, 1139}}";
+		};
+	};
+	FBBB4FA42185BA2B00BFD260 /* malloc_error_break */ = {
+		isa = PBXSymbolicBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 1;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		hitCount = 0;
+		ignoreCount = 0;
+		location = libsystem_c.dylib;
+		modificationTime = 575794268.17237;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+		symbolName = malloc_error_break;
+	};
+	FBBB51B621860D7A00BFD260 /* *0x000000010006e230 */ = {
+		isa = PBXSymbolicBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 1;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		hitCount = 0;
+		ignoreCount = 0;
+		location = libcrypto.44.dylib;
+		modificationTime = 575794307.467344;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+		symbolName = "*0x000000010006e230";
+	};
+	FBBB51C121860DB900BFD260 /* digest.c:128 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = FBBB51C221860DB900BFD260 /* digest.c */;
+		functionName = "EVP_MD_CTX_init()";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 128;
+		location = libcrypto.44.dylib;
+		modificationTime = 575794268.1624811;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	FBBB51C221860DB900BFD260 /* digest.c */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = digest.c;
+		path = "/usr/local/src/libressl-2.1.6/crypto/evp/digest.c";
+		sourceTree = "<absolute>";
+	};
+	FBC800212255D35700E8D537 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* SoftU2FToolObjCAppDelegate.m */;
+	};
+	FBC800222255D35700E8D537 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* SoftU2FToolObjCAppDelegate.m */;
+		name = "SoftU2FToolObjCAppDelegate.m: 63";
+		rLen = 0;
+		rLoc = 2515;
+		rType = 0;
+		vrLen = 2691;
+		vrLoc = 0;
+	};
+	FBC8FDEB2250353800E8D537 /* SoftU2FToolObjCAppDelegate.m:541 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 256AC3D90F4B6AC300CF3369 /* SoftU2FToolObjCAppDelegate.m */;
+		functionName = "generateKeyPair()";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 541;
+		location = SoftU2FToolObjC;
+		modificationTime = 575794278.586928;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	FBC8FE9F2251EC3200E8D537 /* SoftU2FToolObjCAppDelegate.m:34 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 256AC3D90F4B6AC300CF3369 /* SoftU2FToolObjCAppDelegate.m */;
+		functionName = "-applicationDidFinishLaunching:";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 34;
+		location = SoftU2FToolObjC;
+		modificationTime = 575794271.063925;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+}
